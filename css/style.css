@@ -1,0 +1,15 @@
+.raz {
+  border-spacing: 10px 14px; /* border-collapse наследуется, применяется только к table или inline-table элементам с border-collapse: separate; */ 
+}
+.raz td:hover {
+    background: #ffc0cb; /* Цвет фона при наведении */
+    /* Цвет текста при наведении */
+   }
+.tab {
+  border-spacing: 0px;
+  /* или */ 
+  border-spacing: 0px 0px; /* border-collapse наследуется, применяется только к table или inline-table элементам с border-collapse: separate; */ 
+}
+.tab {
+	table-layout: fixed;
+}
